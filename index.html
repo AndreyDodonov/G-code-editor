@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/index.css">
+    <title>G code editor</title>
+</head>
+<body>
+    <!-- верхняя навигационная панель -->
+    <nav id="top_header">
+        <!-- заголовок -->
+        <h1 id="top_header-header">G code editor</h1>
+        <button id="top_header_menu--button">
+            Menu
+        </button>
+    </nav>
+
+    <main id="main_wrap">
+        <div id="editor" contenteditable="true">
+
+        </div>
+
+        <div id="right_panel">
+            <button id="btn1">
+                Шапка программы
+            </button>
+            <button id="btn2">
+                Строка безопасности
+            </button>
+        </div>
+    </main>
+    
+    <footer id="footer">
+        Created by Andrew Dodonov 2020
+    </footer>
+
+    <script src="./script/main.js"></script>
+</body>
+</html>
